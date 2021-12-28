@@ -3,7 +3,7 @@ import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 import settings
 
-class PetFriendApi():
+class API():
     def __init__(self):
         self.base_url = "https://petfriends1.herokuapp.com/"
 
